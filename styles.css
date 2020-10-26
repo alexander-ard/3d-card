@@ -55,7 +55,7 @@ body {
         z-index: 1;
     }
 
-    .info title.h1 {
+    .info h1.title {
         font-size: 3rem;
         transition: all 0.5s ease;
     }
