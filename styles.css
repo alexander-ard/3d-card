@@ -74,7 +74,7 @@ body {
         justify-content: space-between;
     }
 
-        .sizes button {
+        .sizes label {
             padding: 0.5rem 2rem;
             background: none;
             border: none;
@@ -86,7 +86,11 @@ body {
             background-color: white;
         }
 
-        .sizes button.active {
+        .sizes input {
+            visibility: hidden;
+        }
+
+        .sizes label.active {
             background: #585858;
             color: white;
         }

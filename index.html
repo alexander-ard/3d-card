@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>3D card</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
-
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="card">
-            <div class="sneaker">
-                <div class="circle">
-
-                </div>
-                <img src="./adidas.png" alt="Sneaker">
-            </div>
-            <div class="info">
-                <h1 class="title">
-                    Adidas ZX
-                </h1>
-                <h3>
-                    FUTURE READY TRAINERS WITH WRAPPED BOOST FOR EXCEPTIONAL CONFORT.
-                </h3>
-                <div class="sizes">
-                    <button>39</button>
-                    <button class="active">40</button>
-                    <button>41</button>
-                    <button>42</button>
-                </div>
-                <div class="purchase">
-                    <button>Purchase</button>
-                </div>
-            </div>
+      <div class="card">
+        <div class="sneaker">
+          <div class="circle"></div>
+          <img src="./adidas.png" alt="Sneaker" />
         </div>
+        <div class="info">
+          <h1 class="title">Adidas ZX</h1>
+          <h3>
+            FUTURE READY TRAINERS WITH WRAPPED BOOST FOR EXCEPTIONAL CONFORT.
+          </h3>
+          <div class="sizes">
+            <input type="radio" id="39" name="sizes" />
+            <label for="39">39</label>
+            <input type="radio" id="40" name="sizes" />
+            <label for="40">40</label>
+            <input type="radio" id="41" name="sizes" />
+            <label for="41">41</label>
+            <input type="radio" id="42" name="sizes" />
+            <label for="42">42</label>
+          </div>
+          <div class="purchase">
+            <button>Purchase</button>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>
