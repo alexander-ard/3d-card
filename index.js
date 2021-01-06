@@ -19,7 +19,6 @@ container.addEventListener('mousemove', (e) => {
     description.style.transform = 'translateZ(75px)';
     sizes.style.transform = 'translateZ(75px)';
     circle.style.transform = `rotate(180deg)`;
-
     card.style.transition = 'none';
 });
 
